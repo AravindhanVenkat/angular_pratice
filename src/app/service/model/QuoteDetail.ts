@@ -1,5 +1,5 @@
-export interface QuoteDetail {
+export class QuoteDetail {
   status: string;
   error: string;
-  data: string;
+  title: string;
 }
